@@ -219,8 +219,8 @@ this.init();
 },
 /**
 * Load and decode base 64 encoded sounds.
-*/
-loadSounds: function() {
+
+/**loadSounds: function() {
 if (!IS_IOS) {
 this.audioContext = new AudioContext();
 var resourceTemplate =
@@ -236,7 +236,7 @@ this.soundFx[index] = audioData;
 }.bind(this, sound));
 }
 }
-},
+},*/
 /**
 * Sets the game speed. Adjust the speed accordingly if on a smaller screen.
 * @param {number} opt_speed
